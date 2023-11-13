@@ -34,9 +34,9 @@ public class AppTest extends Base {
         log.info("Verify the redirection to the WSECU Online Banking web site");
         String currentUrl = driver.getCurrentUrl();
         if (currentUrl.equals("https://digital.wsecu.org/banking/signin")) {
-            System.out.println("Redirected to the WSECU Online Banking web site.");
+            log.info("Redirected to the WSECU Online Banking web site.");
         } else {
-            System.out.println("Redirection to the WSECU Online Banking web site failed.");
+            log.info("Redirection to the WSECU Online Banking web site failed.");
         }
 
       log.info("Passing the password data into password section on the website");
