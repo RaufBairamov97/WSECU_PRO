@@ -1,0 +1,11 @@
+20:36:14--[main]--INFO  utils.Base:browserInit - Initializing the Chrome Web Driver instance to Lunch the Browser and Page
+20:36:25--[main]--INFO  utils.Base:browserInit - Opening the Web Page
+20:36:25--[main]--INFO  utils.Base:browserInit - Initializing the Chrome Web Driver instance to Lunch the Browser and Page
+20:36:33--[main]--INFO  utils.Base:browserInit - Opening the Web Page
+20:36:38--[main]--INFO  org.tests.AppTest:WSECUTest - Passing the user name in user name box on UI 
+20:36:40--[main]--INFO  org.tests.AppTest:WSECUTest - Clicking the Submit Button
+20:36:41--[main]--INFO  org.tests.AppTest:WSECUTest - Verify the redirection to the WSECU Online Banking web site
+20:36:41--[main]--INFO  org.tests.AppTest:WSECUTest - Redirected to the WSECU Online Banking web site.
+20:36:41--[main]--INFO  org.tests.AppTest:WSECUTest - Passing the password data into password section on the website
+20:36:43--[main]--INFO  org.tests.AppTest:WSECUTest - Grabbing Error Text Message from the error pop up on UI
+20:36:43--[main]--INFO  org.tests.AppTest:WSECUTest - Asserting for Correct Error message of 'Sorry, incorrect username.' from the UI 

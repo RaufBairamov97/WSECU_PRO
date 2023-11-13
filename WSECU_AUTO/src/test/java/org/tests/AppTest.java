@@ -36,7 +36,7 @@ public class AppTest extends Base {
         if (currentUrl.equals("https://digital.wsecu.org/banking/signin")) {
             log.info("Redirected to the WSECU Online Banking web site.");
         } else {
-            log.info("Redirection to the WSECU Online Banking web site failed.");
+            log.error("Redirection to the WSECU Online Banking web site failed.");
         }
 
       log.info("Passing the password data into password section on the website");
